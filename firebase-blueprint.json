@@ -1,0 +1,23 @@
+{
+  "projectId": "knitted-box-mf38q",
+  "entities": {
+    "projects": {
+      "title": "Project",
+      "description": "Studio multimedia projects with voice narration, formats, and visual styles",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Project title" },
+        "description": { "type": "string", "description": "Project description and brief" },
+        "contentType": { "type": "string", "description": "Content type (court métrage, storytelling, TikTok, Instagram Reel, YouTube Short, publicité, documentaire, histoire pour enfants, clip musical)" },
+        "format": { "type": "string", "description": "Aspect ratio format (9:16, 16:9, 1:1)" },
+        "language": { "type": "string", "description": "Selected language" },
+        "visualStyle": { "type": "string", "description": "Visual aesthetic style" },
+        "script": { "type": "string", "description": "Script narration text" },
+        "voice": { "type": "string", "description": "Selected voice" },
+        "createdAt": { "type": "number", "description": "Creation timestamp in ms" },
+        "updatedAt": { "type": "number", "description": "Last update timestamp in ms" }
+      },
+      "required": ["title", "contentType", "format", "language", "visualStyle"]
+    }
+  }
+}

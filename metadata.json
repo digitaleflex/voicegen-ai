@@ -1,0 +1,8 @@
+{
+  "name": "VoxGen AI - Text-to-Speech",
+  "description": "A professional AI-powered text-to-speech converter using Gemini 2.5 Flash TTS for high-quality English and French audio generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
